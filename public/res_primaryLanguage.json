@@ -91,6 +91,7 @@
         "mainTech": [
           "NumPy"
         ],
+        "mainTechLogo": "devicon-numpy-plain",
         "technologies": [
           "AlphaFold",
           "PyMol",
@@ -105,6 +106,7 @@
         "mainTech": [
           "Firebase"
         ],
+        "mainTechLogo": "devicon-firebase-plain",
         "technologies": [
           "React",
           "SQL",
@@ -119,6 +121,7 @@
         "mainTech": [
           "PyTorch"
         ],
+        "mainTechLogo": "devicon-pytorch-plain",
         "technologies": [
           "GurobiPy",
           "Pandas",
@@ -132,6 +135,7 @@
         "mainTech": [
           "React"
         ],
+        "mainTechLogo": "devicon-react-plain",
         "technologies": [
           "Firebase",
           "Android Studio",

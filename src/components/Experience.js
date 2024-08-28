@@ -7,10 +7,37 @@ import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 
 class Experience extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      logoMargin: "15px",
+      logoSize: "300%"
+    };
+  }
+
+  handleResize = () => {
+    if (window.innerWidth < 1170) {
+      this.setState({ logoMargin: "9px", logoSize: "225%" }); 
+    } else {
+      this.setState({ logoMargin: "15px", logoSize: "300%"  });
+    }
+  };
+
+  componentDidMount() {
+    window.addEventListener("resize", this.handleResize);
+    this.handleResize(); // Initial check
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.handleResize);
+  }
+
   render() {
+    const { marginTop } = this.state;
+
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
-      var work = this.props.resumeExperience.map(function (work, i) {
+      var work = this.props.resumeExperience.map((work, i) => {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
 
@@ -37,7 +64,16 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={
+              <span>
+                <div className="text-center" style={{ marginTop: this.state.logoMargin }}>
+                  <i
+                    className={work.mainTechLogo}
+                    style={{ fontSize: this.state.logoSize }}
+                  ></i>
+                </div>
+              </span>
+            }
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
