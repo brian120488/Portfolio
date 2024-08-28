@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/brian120488.github.io/static/css/main.4da3b2e9.css",
-    "main.js": "/brian120488.github.io/static/js/main.e7618f2e.js",
-    "index.html": "/brian120488.github.io/index.html",
-    "main.4da3b2e9.css.map": "/brian120488.github.io/static/css/main.4da3b2e9.css.map",
-    "main.e7618f2e.js.map": "/brian120488.github.io/static/js/main.e7618f2e.js.map"
+    "main.css": "/Portfolio2/static/css/main.4da3b2e9.css",
+    "main.js": "/Portfolio2/static/js/main.fd24adc0.js",
+    "index.html": "/Portfolio2/index.html",
+    "main.4da3b2e9.css.map": "/Portfolio2/static/css/main.4da3b2e9.css.map",
+    "main.fd24adc0.js.map": "/Portfolio2/static/js/main.fd24adc0.js.map"
   },
   "entrypoints": [
     "static/css/main.4da3b2e9.css",
-    "static/js/main.e7618f2e.js"
+    "static/js/main.fd24adc0.js"
   ]
 }
