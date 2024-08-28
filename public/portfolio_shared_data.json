@@ -1,16 +1,21 @@
 {
     "basic_info": {
       "name": "Brian Yang",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "titles": [ "Software Developer", "Data Analyst", "Mobile App Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/brian120488",
           "class": "fab fa-github"
         },
         {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/brian-yang-b8361a232/",
+          "class": "fab fa-linkedin"
+        },
+        {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.instagram.com/brian.yang8/",
           "class": "fab fa-instagram"
         }
       ],
@@ -19,24 +24,24 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
+          "name": "Python",
+          "class": "devicon-python-plain",
           "level": "95"
         },
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
+          "name": "C++",
+          "class": "devicon-cplusplus-plain",
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
+          "name": "C",
+          "class": "devicon-c-plain",
+          "level": "95"
         },
         {
-          "name": "TypeScript",
+          "name": "React",
           "class": "devicon-typescript-plain",
-          "level": "90"
+          "level": "80"
         },
         {
           "name": "JavaScript",
