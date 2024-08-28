@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Brian Yang. I previously have done work developing websites and mobile apps. I am now exploring more of data analysis and working with the modern machine learning models and techniques, such as AlphaFold and robust optimization.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,8 +11,8 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
+        "title": "AlphaFold",
+        "startDate": "2024",
         "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
@@ -21,21 +21,25 @@
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-google-plain",
+            "name": "AlphaFold 2"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-numpy-plain",
+            "name": "NumPy"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-pandas-plain",
+            "name": "Pandas"
+          },
+          {
+            "class": "devicon-matplotlib-plain",
+            "name": "Matplotlib"
           }
         ]
       },
       {
-        "title": "Photography",
+        "title": "Ouro",
         "startDate": "2018",
         "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
         "images": [
@@ -45,12 +49,12 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-androidstudio-plain",
+            "name": "Android Studio"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-jetpackcompose-plain",
+            "name": "Jetpack Compose"
           }
         ]
       },
@@ -81,37 +85,57 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Tufts University",
+        "title": "Data Analysis Research Intern",
+        "years": "5.2024 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "NumPy"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "AlphaFold",
+          "PyMol",
+          "Pandas",
+          "matplotlib"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
+        "company": "Tufts Textbook Exchange Network",
+        "title": "Software Engineer",
         "years": "01.2018 - 09.2019",
         "mainTech": [
-          "Angular 7/8"
+          "Firebase"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "React",
+          "SQL",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "company": "University of Missouri",
+        "title": "ML Research Intern",
+        "years": "05.2023 - 08.2023",
+        "mainTech": [
+          "PyTorch"
+        ],
+        "technologies": [
+          "GurobiPy",
+          "Pandas",
+          "matplotlib"
+        ]
+      },
+      {
+        "company": "Google Code Next",
+        "title": "Software Engineer Mentee",
+        "years": "05.2018 - 08.2022",
+        "mainTech": [
+          "React"
+        ],
+        "technologies": [
+          "Firebase",
+          "Android Studio",
+          "Xcode"
         ]
       }
     ]
