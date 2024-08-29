@@ -33,8 +33,6 @@ class Experience extends Component {
   }
 
   render() {
-    const { marginTop } = this.state;
-
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map((work, i) => {
