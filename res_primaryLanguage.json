@@ -13,11 +13,11 @@
       {
         "title": "AlphaFold",
         "startDate": "2024",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "Enhanced AlphaFold's protein structure predictions using kernel approximation methods. Visualized complex protein structures using PyMol for comprehensive analysis. Published research findings as head author at scientific conference.",
         "images": [
           "images/portfolio/alphafold/p1.jpg"
         ],
-        "url": "",
+        "url": "https://github.com/brian120488/DIAMONDS-2024",
         "technologies": [
           {
             "class": "devicon-google-plain",
@@ -38,14 +38,33 @@
         ]
       },
       {
+        "title": "Terraria",
+        "startDate": "2021",
+        "description": "Final project for college summer course. Utilized Python/Pygame to redesign Terraria, a popular action-adventure sandbox game. Emulated Perlin noise to generate pseudo-random terrain. Built a physics engine to simulate basic kinematics.",
+        "images": [
+          "images/portfolio/terraria/p1.jpg"
+        ],
+        "url": "https://youtu.be/Wg5eYpyjZlE",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-unity-plain",
+            "name": "Unity"
+          }
+        ]
+      },
+      {
         "title": "Ouro",
         "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "description": "2022 Google Code Next Hackathon submission. Built an app that facilitated communication between students and faculty using Android Studio. Created splash screens, animations, and navigations using Java/Kotlin and Jetpack Compose. Established infrastructure for account setup and the creation, submission, and review of reports.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/ouro/p1.jpg",
+          "images/portfolio/ouro/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/brian120488/Ouro",
         "technologies": [
           {
             "class": "devicon-androidstudio-plain",
@@ -54,30 +73,14 @@
           {
             "class": "devicon-jetpackcompose-plain",
             "name": "Jetpack Compose"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-java-plain",
+            "name": "Java"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-kotlin-plain",
+            "name": "Kotlin"
           }
         ]
       }
